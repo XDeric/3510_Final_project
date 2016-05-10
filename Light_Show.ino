@@ -1,4 +1,4 @@
-// Eric Mei Alarm Project
+// Eric Mei Light Project
 
 #include <Adafruit_GFX.h>   //AdaFruit Core graphics library
 #include <RGBmatrixPanel.h> //AdaFruit Hardware-specific library
@@ -140,5 +140,3 @@ void loop()
     matrix.fillScreen(matrix.Color333(0, 0, 0)); //fill screen black*/
   }
  }
-
-
