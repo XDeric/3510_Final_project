@@ -33,7 +33,6 @@ void setup() {
  
  // Setting time
  setTime(7,1,0,10,5,16);  //hours, minutes, seconds, days, months, years
- //adjustTime(adjustment) //to make it go to time for alarm
  
  matrix.begin();
  matrix.drawPixel(0, 0, matrix.Color333(7, 7, 7)); // First led is white
