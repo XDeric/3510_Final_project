@@ -79,7 +79,7 @@ void loop()
     Serial.print("5 cm away");
     matrix.setTextColor(matrix.Color333(7,0,0));
     matrix.setCursor(1, 0); // start at top left, with one pixel of spacing
-    matrix.print("5 In");
+    matrix.print("5 cm");
     delay(1000); 
     matrix.fillRect(0, 10, 32, 32, matrix.Color333(0, 0, 0)); //black
     delay(100);
@@ -96,7 +96,7 @@ void loop()
     {
     matrix.setTextColor(matrix.Color333(7,0,0));
     matrix.setCursor(1, 0); // start at top left, with one pixel of spacing
-    matrix.print("10 In");
+    matrix.print("10 cm");
     delay(1000);
     matrix.fillCircle(16, 18, 10, matrix.Color333(1, 0, 1)); //Purple
     delay(100);
